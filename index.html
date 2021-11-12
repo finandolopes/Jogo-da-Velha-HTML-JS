@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha | DIO</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="container">
+        <h1>Jogo da velha</h1>
+        <div id="result"></div>
+        <div id="cover"><button type="button" onClick="start()">Start</button></div>
+        <div class="content">
+            <div class="content-item" id="1" onClick="selectElement(this.id)"></div>
+            <div class="content-item" id="2" onClick="selectElement(this.id)"></div>
+            <div class="content-item" id="3" onClick="selectElement(this.id)"></div>
+            <div class="content-item" id="4" onClick="selectElement(this.id)"></div>
+            <div class="content-item" id="5" onClick="selectElement(this.id)"></div>
+            <div class="content-item" id="6" onClick="selectElement(this.id)"></div>
+            <div class="content-item" id="7" onClick="selectElement(this.id)"></div>
+            <div class="content-item" id="8" onClick="selectElement(this.id)"></div>
+            <div class="content-item" id="9" onClick="selectElement(this.id)"></div>
+        </div>
+        <div id="players">Player: <span id="player"></span></div>
+    </section>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
