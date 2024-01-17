@@ -3,7 +3,7 @@
 
 
 ## 📋 Índice
-- [Link do projeto:](https://finandolopes.github.io/Jogo-Dino-Offline/)
+- [Link do projeto:](https://finandolopes.github.io/Jogo-da-Velha-HTML-JS/)
 
 - [📖 Sobre](#-Sobre)
 - [🚀 Tecnologias utilizadas](#-Tecnologias-utilizadas)
